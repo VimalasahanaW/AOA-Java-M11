@@ -57,7 +57,7 @@ public class Solution {
            return getMin(nums1,nums2);
        }
     }
-    // Main method with user input
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Solution sol = new Solution();
@@ -65,14 +65,14 @@ public class Solution {
         
         int m = sc.nextInt();
         int[] nums1 = new int[m];
-        //System.out.println("Enter " + m + " sorted integers for first array:");
+        
         for (int i = 0; i < m; i++) {
             nums1[i] = sc.nextInt();
         }
 
         int n = sc.nextInt();
         int[] nums2 = new int[n];
-        //System.out.println("Enter " + n + " sorted integers for second array:");
+        
         for (int i = 0; i < n; i++) {
             nums2[i] = sc.nextInt();
         }
